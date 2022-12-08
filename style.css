@@ -1,0 +1,67 @@
+html {
+    min-height: 100%;
+    background-image: url(back.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+ }
+ body {
+    min-height: 100vh;
+    margin: auto;
+    padding: 2px;
+ }
+ .box {
+    height: 70vh;
+    margin: auto;
+    width: 80%;
+    border: 3px solid green;
+    padding: 10px;
+    background-color: rgba(44, 26, 109, 0.4);
+   
+ }
+    
+ 
+ .box input{
+   
+    margin: 5px;
+   
+}
+ h1, p {
+    font-size: 30px;
+    font-family: cursive;
+    color: aqua;
+
+ }
+ p {
+   font-size: 20px;
+ }
+ input {
+    width: 80%;
+    border-radius: 4px;
+    padding: 4px 2px;
+    height: 5vh;
+    outline: none;
+    transition: 0.1s ease;
+    
+ }
+ button {
+   width: 40%;
+   padding: 4px 2px;
+   margin: 8px;
+   cursor: pointer;
+ }
+ button:active {
+   opacity: 0.8;
+ }
+
+ .info {
+   display: block;
+   font-size: 20px;
+   text-align: center;
+   margin-bottom: 20px;
+ }
+
